@@ -8,12 +8,14 @@
   "plugins": [
     "react"
   ],
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "env": {
     "browser": true,
     "jest": true
   },
   "rules": {
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
     "curly": [
       "error"
     ],
@@ -68,7 +70,7 @@
     "import/extensions": "off",
     "react/jsx-filename-extension": "off",
     "import/no-useless-path-segments": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off" // on for tickets
   },
   "settings": {
     "react": {
