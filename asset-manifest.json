@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/store-func-with-typescript/static/css/main.b3b80674.chunk.css",
+    "main.js": "/store-func-with-typescript/static/js/main.20c2ed45.chunk.js",
+    "main.js.map": "/store-func-with-typescript/static/js/main.20c2ed45.chunk.js.map",
+    "runtime-main.js": "/store-func-with-typescript/static/js/runtime-main.1e61768d.js",
+    "runtime-main.js.map": "/store-func-with-typescript/static/js/runtime-main.1e61768d.js.map",
+    "static/js/2.11c04161.chunk.js": "/store-func-with-typescript/static/js/2.11c04161.chunk.js",
+    "static/js/2.11c04161.chunk.js.map": "/store-func-with-typescript/static/js/2.11c04161.chunk.js.map",
+    "static/js/3.c5095454.chunk.js": "/store-func-with-typescript/static/js/3.c5095454.chunk.js",
+    "static/js/3.c5095454.chunk.js.map": "/store-func-with-typescript/static/js/3.c5095454.chunk.js.map",
+    "index.html": "/store-func-with-typescript/index.html",
+    "static/css/main.b3b80674.chunk.css.map": "/store-func-with-typescript/static/css/main.b3b80674.chunk.css.map",
+    "static/js/2.11c04161.chunk.js.LICENSE.txt": "/store-func-with-typescript/static/js/2.11c04161.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/store-func-with-typescript/static/media/item-blue.2103f69b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e61768d.js",
+    "static/js/2.11c04161.chunk.js",
+    "static/css/main.b3b80674.chunk.css",
+    "static/js/main.20c2ed45.chunk.js"
+  ]
+}
