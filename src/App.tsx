@@ -2,16 +2,16 @@ import React from 'react';
 import ShopItemFunc from './components/ShopItemFunc';
 import './css/main.css';
 
-export type ShopItemFuncProps = {
-  brand: string,
-  title: string,
-  description: string,
-  descriptionFull: string,
-  price: number,
-  currency: string,
-};
+export interface ShopItem {
+  brand: string;
+  title: string;
+  description: string;
+  descriptionFull: string;
+  price: number;
+  currency: string;
+}
 
-const item: ShopItemFuncProps = {
+const item: ShopItem = {
   brand: 'Tiger of Sweden',
   title: 'Leonard coat',
   description: 'Minimalistic coat in cotton-blend',
@@ -21,18 +21,16 @@ const item: ShopItemFuncProps = {
   currency: '£',
 };
 
-function App() {
-  return (
-    <div className="container">
-      <div className="background-element" />
-      <div className="highlight-window">
-        <div className="highlight-overlay" />
-      </div>
-      <div className="window">
-        <ShopItemFunc item={item} />
-      </div>
+const App = () => (
+  <div className="container">
+    <div className="background-element" />
+    <div className="highlight-window">
+      <div className="highlight-overlay" />
     </div>
-  );
-}
+    <div className="window">
+      <ShopItemFunc item={item} />
+    </div>
+  </div>
+);
 
 export default App;
