@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
-import { ShopItem } from '../App';
+import { ShopItem } from '../app/App';
 
-type Props = {
-  item: ShopItem,
-};
+interface Props {
+  item: ShopItem;
+}
 
 const ShopItemFunc: FC<Props> = ({
   item: { brand, title, description, descriptionFull, price, currency },
